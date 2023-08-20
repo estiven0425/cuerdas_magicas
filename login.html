@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="/user/user.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="top-nav">
+        <div class="container d-flex">
+            <!-- Creamos banner -->
+            <div style="padding: 100px;">
+                <h4 style="text-align:center">
+                    <marquee width="80%"> 👨‍🦰️...Haga su pedido en línea o llámenos: (057) 3007452456...👩‍🦰️</marquee>
+                </h4>
+            </div>
+
+            <ul class="d-flex">
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="nav-center container d-flex">
+            <a href="index.html" class="logo">
+                <h1>Cuerdas mágicas</h1>
+            </a>
+
+            <ul class="nav-list d-flex">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        <img src="/img/House.png">
+                    </a>
+
+                </li>
+
+                <li class="icons d-flex">
+                    <a href="login.html" class="icon">
+                        <i class="bx bx-user"></i>
+                    </a>
+
+                </li>
+            </ul>
+
+            <div class="icons d-flex">
+                <a href="login.html" class="icon">
+                    <i class="bx bx-user"></i>
+                </a>
+
+            </div>
+
+            <div class="hamburger">
+                <i class="bx bx-menu-alt-left"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Login -->
+    <div class="container">
+        <div class="login-form">
+            <form action="https://formsubmit.co/cuerdasmagicas20@gmail.com" method="POST">
+                <h1>Login</h1>
+                <p>
+                    ¿Ya tienes una cuenta? Inicie sesión o
+                    <a href="signup.html">regístrese</a>
+                </p>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email Address">
+
+                <label for="psw">Password</label>
+                <input type="password" placeholder="Introduzca la contraseña" name="psw" required />
+
+                <label for="psw-repeat">Repeat Password</label>
+                <input type="password" placeholder="Repetir contraseña" name="psw-repeat" required />
+
+                <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Recuérdame
+          </label>
+
+                <p>
+                    Al crear una cuenta, usted acepta nuestros
+                    <a href="#">Términos y privacidad.</a>.
+                </p>
+
+                <div class="buttons">
+                    <button type="button" class="cancelbtn">Cancelar</button>
+                    <button type="submit" class="signupbtn">Iniciar Sesión</button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Bienvenido de cuerdas magicas...">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col d-flex">
+                <h4>INFORMACION</h4>
+                <a href="">Sobre nosotros</a>
+                <a href="">Contáctenos</a>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Guía de envío</a>
+            </div>
+            <div class="col d-flex">
+                <h4>ENLACE ÚTIL</h4>
+                <a href="">Tienda Online </a>
+                <a href="">Servicio al cliente</a>
+                <a href="">Promociónes</a>
+                <a href="">Los mejores productos</a>
+            </div>
+            <div class="col d-flex">
+                <a href="#"><span><i class="bx bxl-facebook-square"></i></span></a>
+                <a href="#"><span><i class="bx bxl-instagram-alt"></i></span></a>
+                <a href="#"><span><i class="bx bxl-github"></i></span></a>
+                <a href="#"><span><i class="bx bxl-twitter"></i></span></a>
+                <a href="#"><span><i class="bx bxl-pinterest"></i></span></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

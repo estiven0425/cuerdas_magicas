@@ -1,0 +1,240 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* Color Variables */
+
+:root {
+    --white: #fff;
+    --black: #222;
+    --green: rgb(40, 90, 135);
+    --grey1: #f0f0f0;
+    --grey2: #e9d7d3;
+}
+
+
+/* Basic Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav {
+    background-color: var(--green);
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.top-nav div {
+    justify-content: space-between;
+    height: 4.5rem;
+}
+
+.top-nav a {
+    color: var(--white);
+    padding: 0 0.5rem;
+}
+
+
+/* 
+=================
+Navigation
+=================
+*/
+
+.navigation {
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.nav-center {
+    justify-content: space-between;
+}
+
+.nav-list .icons {
+    display: none;
+}
+
+.nav-center .nav-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.nav-center .nav-link {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.nav-center .nav-link:hover {
+    color: var(--green);
+}
+
+.nav-center .hamburger {
+    display: none;
+    font-size: 2.3rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+
+/* Login Form */
+
+.login-form {
+    padding: 5rem 0;
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form h1 {
+    margin-bottom: 1rem;
+}
+
+.login-form form p {
+    margin-bottom: 2rem;
+}
+
+.login-form form label {
+    margin-bottom: 1rem;
+}
+
+.login-form form input {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 1.5rem 0;
+    text-indent: 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.login-form form input::placeholder {
+    font-size: 1.6rem;
+    color: #222;
+}
+
+.login-form form .buttons {
+    margin-top: 1rem;
+}
+
+.login-form form button {
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    margin-right: 1.5rem;
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+}
+
+.login-form form p a {
+    color: dodgerblue;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 2rem 1rem;
+    background-color: var(--green);
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 99.6rem;
+    margin: 0 auto;
+}
+
+.footer .col {
+    flex-direction: column;
+    color: var(--white);
+    align-items: flex-start;
+}
+
+.footer .col:last-child {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .col:last-child span {
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    color: var(--white);
+}
+
+.footer .col a {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-weight: 300;
+}
+
+.footer .col h4 {
+    margin-bottom: 1rem;
+}
+
+
+/* Footer */
+
+.bxl-facebook-square:hover {
+    color: #1773EA;
+}
+
+.bxl-instagram-alt:hover {
+    color: #c57dad;
+}
+
+.bxl-github:hover {
+    color: #3e1046;
+}
+
+.bxl-twitter:hover {
+    color: #186d87;
+}
+
+.bxl-pinterest:hover {
+    color: #26f007;
+}
